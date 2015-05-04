@@ -12,7 +12,7 @@ besselk0.f90
 besselk1.f90
 from Numerical Recipes [5].
 
-You may download all e-DDA files by clicking edda1.2.zip.  To install the code simply download DDSCAT v7.1 and move the e-DDA *.f90 files and Makefile into the DDSCAT /src directory.  Compile and run the code exactly as you would with DDSCAT.  The only difference is that you must use the supplied ddscat.par file, which contains new information such as the incident electron’s path trajectory and kinetic energy.
+To install the code simply download DDSCAT v7.1 and move the e-DDA *.f90 files and Makefile into the DDSCAT /src directory.  Compile and run the code exactly as you would with DDSCAT. The only difference is that you must use the supplied ddscat.par file, which contains new information such as the incident electron’s path trajectory and kinetic energy.
 
 Please email us if you have any questions.
 
