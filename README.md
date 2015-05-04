@@ -1,9 +1,9 @@
 # eDDA
 Electron-driven discrete dipole approximation code
 
-This is an electron-driven discrete dipole approximation code [1,2] based off DDSCAT 7.1 [3].
+This is an electron-driven discrete dipole approximation code called the e-DDA v1.2 [1,2] based off DDSCAT 7.1 [3].
 
-Given a set of dipole points and associated dielectric functions, this code generates a loss probability density and a CL intensity [4] for a given electron beam location and beam energy.
+Given a set of dipole points and associated dielectric functions, this code generates a loss probability density for electron energy-loss spectroscopy (EELS) and cathodoluminescence (CL) intensity [4] for a given electron beam trajectory and beam energy. Both internal (beam passes through the target) and aloof (beam does not pass through the target) electron trajectories are permissible in this code. Target rotation functionality is preserved from Draine's original code, which can be used to easily simulate electron tomography experiments.
 
 This code also requires the subroutines:
 besseli0.f90
